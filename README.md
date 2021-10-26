@@ -17,7 +17,7 @@ Steps::
 1. git clone git@github.com:spmunna/dbpedia.git
 2. docker volume create --name=spotlight-models
 3. docker-compose -f docker-compose.yml up -d
-4. docker-compose -f spotlight-compose.yml stop [to stop]
+4. docker-compose -f docker-compose.yml stop [to stop]
 5. docker stats dbpedia-spotlight.en [to check the stats]
 6. docker logs dbpedia-spotlight.en [to check the logs]
 
